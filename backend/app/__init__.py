@@ -1,0 +1,2 @@
+"""Divisao de Contas backend."""
+

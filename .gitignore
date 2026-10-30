@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+frontend/playwright/.cache/
+
+# Dados locais (bancos, backups e auditoria contem dados pessoais)
+data/*
+!data/.gitkeep
+
+# Planilhas e faturas importadas
+*.xlsx
+*.pdf
+
+# Ambiente e editores
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.missions/
+
+# Scripts locais (fora do repositório)
+scripts/gerar_dados_ficticios.py
+scripts/importar_historico.py
